@@ -105,3 +105,8 @@ eval (If e1 e2 e3)           =  do
 -- is supposed to go all the way to normal form in one go, and
 -- functions such as equality are supposed to force both arguments
 -- to normal form before proceeding?
+
+-- Exercise 1-5:
+--
+-- What do we have to change if we want better error messages?
+-- Try to implement such changes.
